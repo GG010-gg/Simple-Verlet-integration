@@ -41,8 +41,8 @@ class particle():
         if d>R/2-self.r:
             delta=(R/2-self.r)/d
             Dx=R/2+delta*dx;Dy=R/2+delta*dy
-            self.x=
-            self.y=
+            self.x=Dx
+            self.y=Dy
     def contrainteR(self):
         if self.immobile:return
         self.x=min(max(0,self.x),R)
